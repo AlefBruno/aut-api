@@ -1,0 +1,10 @@
+<?xml version='1.0'?>
+<checkstyle>
+  <file name='Gemfile'/>
+  <file name='Rakefile'/>
+  <file name='features/services/via_cep/v1/cep_service.rb'/>
+  <file name='features/step_definitions/via_cep/v1/cep_service.rb'/>
+  <file name='features/support/common/commons.rb'/>
+  <file name='features/support/env.rb'/>
+  <file name='features/support/spec_instances/cep_service_instance.rb'/>
+</checkstyle>

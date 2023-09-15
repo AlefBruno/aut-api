@@ -1,0 +1,7 @@
+viacep:
+  status_code:
+    success: 200
+  mensagens:
+    sucesso:
+      logradouro: "Avenida Corifeu de Azevedo Marques"
+      ddd: "11"

@@ -1,0 +1,138 @@
+[
+  {
+    "id": "cep",
+    "uri": "features/spec/via_cep/v1/cep_service.feature",
+    "keyword": "Funcionalidade",
+    "name": "Cep",
+    "description": "  Como uma aplicação de consulta de CEP\n  Quero chamar o endpoint da API\n  Para validar as funcionalidade do mesmo",
+    "line": 4,
+    "tags": [
+      {
+        "name": "@cep_service_v1",
+        "line": 3
+      }
+    ],
+    "elements": [
+      {
+        "id": "cep;validação-do-logradouro-e-ddd-no-retorno-da-consulta-de-cep;;2",
+        "keyword": "Esquema do Cenário",
+        "name": "Validação do Logradouro e DDD no retorno da consulta de CEP",
+        "description": "",
+        "line": 17,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "ter uma massa configurada para realizar a consulta do cep",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/via_cep/v1/cep_service.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61000
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "chamar o endpoint cep_service_v1.get",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/via_cep/v1/cep_service.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 441929000
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "validar no retorno a \"logradouro\" na consulta do cep",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/via_cep/v1/cep_service.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3032000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cep_service_v1",
+            "line": 3
+          },
+          {
+            "name": "@get_logradouro_cep_service_v1",
+            "line": 9
+          },
+          {
+            "name": "@get_cep",
+            "line": 9
+          }
+        ]
+      },
+      {
+        "id": "cep;validação-do-logradouro-e-ddd-no-retorno-da-consulta-de-cep;;3",
+        "keyword": "Esquema do Cenário",
+        "name": "Validação do Logradouro e DDD no retorno da consulta de CEP",
+        "description": "",
+        "line": 18,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "ter uma massa configurada para realizar a consulta do cep",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/via_cep/v1/cep_service.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23000
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "chamar o endpoint cep_service_v1.get",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/via_cep/v1/cep_service.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 457782000
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "validar no retorno a \"ddd\" na consulta do cep",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/via_cep/v1/cep_service.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 254000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cep_service_v1",
+            "line": 3
+          },
+          {
+            "name": "@get_logradouro_cep_service_v1",
+            "line": 9
+          },
+          {
+            "name": "@get_cep",
+            "line": 9
+          }
+        ]
+      }
+    ]
+  }
+]
