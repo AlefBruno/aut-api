@@ -1,0 +1,3 @@
+viacep:
+  cepservice:
+    host: 'https://viacep.com.br/ws/'
